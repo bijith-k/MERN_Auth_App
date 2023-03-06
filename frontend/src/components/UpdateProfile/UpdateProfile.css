@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #321f9c;
+}
+
+.profileContainers {
+  background-color: #fff;
+  color: black;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.details {
+  font-size: 25px;
+  font-weight: 600;
+  /* margin: 20px 0; */
+  text-align: center;
+}
+
+.content {
+  margin-top: 5px;
+}
+
+#cont button {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  background: #0f0820;
+  border: 1px solid #170646;
+  cursor: pointer;
+}
+
+.images img {
+  /* border-radius: 50%; */
+  /* margin: 20px 0; */
+  /* border: 3px solid #170646; */
+  /* margin: auto; */
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.images {
+  height: 250px;
+  overflow: hidden;
+}
+
+.imgSubmit {
+  background-color: #321f9c;
+  padding: 10px;
+  font-weight: 500;
+  color: white;
+  border: none;
+}
+
+.imgInp {
+  border: 1px solid;
+  padding: 6px;
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #0b3049;
+}
+
+.head {
+  background-color: rgb(55, 54, 131);
+  height: 80px;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}
+
+.logout {
+  background-color: #0b3049;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logout:hover {
+  background-color: #0b30492f;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #321f9c;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 20px;
+}
+
+.container button {
+  background-color: rgba(243, 243, 243, 0.836);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 20px 10px;
+  background: #170646;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background: #321f9c;
+}
