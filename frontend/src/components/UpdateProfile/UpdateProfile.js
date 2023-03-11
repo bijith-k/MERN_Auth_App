@@ -58,7 +58,7 @@ const UpdateProfile = () => {
           setUserDetails({
             email: data.user.email,
             id: data.user._id,
-            image: data.user.image,
+            image: data.user.image.path,
             name: data.user.name,
             phone: data.user.phone,
           })
@@ -93,7 +93,7 @@ const UpdateProfile = () => {
             src={
               image
                 ? URL.createObjectURL(image) ?? ""
-                : `http://localhost:4000/${user.image ? user.image.path : ""}`
+                : `http://localhost:4000/${user.image ? user.image: ""}`
             }
           />
         </div>

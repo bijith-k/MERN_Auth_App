@@ -9,7 +9,7 @@ const Profile = () => {
   const user = useSelector((state) => state.user);
   const [cookie, setCookie, removeCookie] = useCookies([]);
   const navigate = useNavigate();
-  
+  console.log(user,"ss");
   useEffect(() => {
     const checkUser = async () => {
       if (!cookie.jwt) {
@@ -36,7 +36,7 @@ const Profile = () => {
           <img
             src={
               user.image
-                ? `http://localhost:4000/${user.image.path}`
+                ? `http://localhost:4000/${user.image}`
                 : "http://localhost:4000/images/blank-profile-picture-g4428f657d_1280.png"
             }
             alt="Profile"

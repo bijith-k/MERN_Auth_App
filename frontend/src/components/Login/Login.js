@@ -81,6 +81,7 @@ const Login = ({ admin }) => {
                 email: data.user.email,
                 phone: data.user.phone,
                 token: data.token,
+                image:data.user.image.path
               })
             );
             navigate("/");
